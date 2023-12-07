@@ -1,0 +1,21 @@
+{
+    "title": "Wine dataset",
+    "description": "Datasets for Final Project (IS477)",
+    "creators": [
+    {
+    "name": "Wang, Yuchen",
+    "orcid": "0009-0003-2911-7106"
+    }
+    ],
+    "related_identifiers": [
+    {
+    "scheme": "doi",
+    "identifier": "https://doi.org/10.24432/C5PC7J",
+    "relation": "cites"
+    }
+    ],
+    "access_right": "open",
+    "upload_type": "software",
+    "license": "MIT",
+    "keywords": ["Acalinity","Ash","Hue"]
+    }
