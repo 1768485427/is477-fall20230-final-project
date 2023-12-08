@@ -73,7 +73,7 @@ less_avg_Flavanoids = df_data_new[df_data_new['Flavanoids']<avg_Flavanoids]
 less_avg_Flavanoids_file = os.path.join(path, 'less_avg_Flavanoids.csv')
 less_avg_Flavanoids.to_csv(less_avg_Flavanoids_file, index=False)
 more_or_equal_avg_Flavanoids = df_data_new[df_data_new['Flavanoids'] >= avg_Flavanoids]
-more_or_equal_avg_Flavanoids_file = os.path.join(path, 'more_or_equal_avg_phenols.csv')
+more_or_equal_avg_Flavanoids_file = os.path.join(path, 'more_or_equal_avg_Flavanoids.csv')
 more_or_equal_avg_Flavanoids.to_csv(more_or_equal_avg_Flavanoids_file, index=False)
 
 less_avg_Nonglavanoid_phenols = df_data_new[df_data_new['Nonglavanoid_phenols']<avg_Nonglavanoid_phenols]
