@@ -1,5 +1,5 @@
 # is477-fall20230-final-project: Wine Dataset Analysis
-[![DOI](https://zenodo.org/badge/727988072.svg)](https://zenodo.org/doi/10.5281/zenodo.10279729)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10297836.svg)](https://doi.org/10.5281/zenodo.10297836)
 
 # Overview
 We chose the wine dataset from the UCI Machine Learning archive: https://archive.ics.uci.edu/datasets. This dataset results from a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determines the quantities of 13 constituents found in each of the three types of wines. 
