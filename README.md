@@ -56,7 +56,7 @@ Here are the result after comapring the features with their average:
 12. For *Proline*, there are 107 less than average, and 71 more or equal to average
 
 # Workflow
-<img src="graph.png" width="500">
+<img src="graph.png" width="600">
 
 # Reproducing
 1. To set up the environment. The firs thing is we need to have a git account.
