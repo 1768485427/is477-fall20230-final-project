@@ -73,6 +73,16 @@ We recommend to downlowad the picture to ensure the you can check the picture cl
 8. And same to other packages. By accepting datasets you need, you only need to simply run the prepare_data.py and datasets will be downloaded automatically.It will also compare the integrity of the dataset automatically for you.
 9. In the scripts file, there is one py file called analysis.py. You can run the code in this file. The results of the analysis of the dataset will be stored automatically in to the result file. 
 
+if you are using docker, you could also reproduce the workflow in the project by run the following: 
+
+> docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 reproduce
+
+And you can use the following to clean:
+
+> docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 reproduce --delete-all-output
+
+
+
 # License
 > - Software license: MIT：
 Since we are welcome people to use and share our sofware without too much resitriction. So we choose the MIT as our Software License. 
