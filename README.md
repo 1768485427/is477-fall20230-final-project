@@ -82,9 +82,9 @@ if you are using docker, you could also reproduce the workflow in the project by
 
 And you can use the following to clean:
 
-> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 prepare --delete-all-output
-> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 profile --delete-all-output
-> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 analyze --delete-all-output
+> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project snakemake --cores 1 prepare --delete-all-output
+> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project snakemake --cores 1 profile --delete-all-output
+> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project snakemake --cores 1 analyze --delete-all-output
 
 
 
