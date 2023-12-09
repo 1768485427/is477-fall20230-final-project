@@ -2,5 +2,5 @@ requests
 pandas
 scikit-learn
 matplotlib
-numpy
 snakemake
+ydata_profiling

@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+prepare        1
+total          1
+
+Select jobs to execute...
+
+[Sat Dec  9 03:35:07 2023]
+rule prepare:
+    output: data/wine/wine.data
+    jobid: 0
+    reason: Missing output files: data/wine/wine.data
+    resources: tmpdir=/tmp
+
+[Sat Dec  9 03:35:08 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2023-12-09T033506.932428.snakemake.log

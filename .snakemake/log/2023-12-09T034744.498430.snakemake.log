@@ -1,0 +1,50 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+analyze        1
+total          1
+
+Select jobs to execute...
+
+[Sat Dec  9 03:47:44 2023]
+rule analyze:
+    input: data/wine/wine.data
+    output: less_avg_alco.csv, less_avg_malicacid.csv, more_or_equal_avg_alco.csv, more_or_equal_avg_malicacid.csv, less_avg_Acalinity.csv, less_avg_ash.csv, less_avg_Color_intensity.csv, less_avg_Flavanoids.csv, less_avg_Hue.csv, less_avg_Magnesium.csv, less_avg_Nonglavanoid_phenols.csv, less_avg_phenols.csv, less_avg_Proanthocyanins.csv, less_avg_Proline.csv, more_or_equal_avg_Acalinity.csv, more_or_equal_avg_ash.csv, more_or_equal_avg_Color_intensity.csv, more_or_equal_avg_Hue.csv, more_or_equal_avg_Magnesium.csv, more_or_equal_avg_Nonglavanoid_phenols.csv, more_or_equal_avg_phenols.csv, more_or_equal_avg_Proanthocyanins.csv, more_or_equal_avg_Proline.csv, more_or_equal_avg_Flavanoids.csv
+    jobid: 0
+    reason: Missing output files: less_avg_Proanthocyanins.csv, less_avg_ash.csv, more_or_equal_avg_Proanthocyanins.csv, less_avg_Proline.csv, less_avg_alco.csv, more_or_equal_avg_ash.csv, less_avg_Flavanoids.csv, more_or_equal_avg_Acalinity.csv, less_avg_Magnesium.csv, more_or_equal_avg_Flavanoids.csv, less_avg_Color_intensity.csv, more_or_equal_avg_Nonglavanoid_phenols.csv, less_avg_Nonglavanoid_phenols.csv, more_or_equal_avg_malicacid.csv, less_avg_malicacid.csv, less_avg_phenols.csv, more_or_equal_avg_alco.csv, less_avg_Acalinity.csv, more_or_equal_avg_Proline.csv, more_or_equal_avg_Color_intensity.csv, less_avg_Hue.csv, more_or_equal_avg_Magnesium.csv, more_or_equal_avg_Hue.csv, more_or_equal_avg_phenols.csv
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule analyze in file /is477/Snakefile, line 15:
+Job 0 completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+less_avg_alco.csv
+less_avg_malicacid.csv
+more_or_equal_avg_alco.csv
+more_or_equal_avg_malicacid.csv
+less_avg_Acalinity.csv
+less_avg_ash.csv
+less_avg_Color_intensity.csv
+less_avg_Flavanoids.csv
+less_avg_Hue.csv
+less_avg_Magnesium.csv
+less_avg_Nonglavanoid_phenols.csv
+less_avg_phenols.csv
+less_avg_Proanthocyanins.csv
+less_avg_Proline.csv
+more_or_equal_avg_Acalinity.csv
+more_or_equal_avg_ash.csv
+more_or_equal_avg_Color_intensity.csv
+more_or_equal_avg_Hue.csv
+more_or_equal_avg_Magnesium.csv
+more_or_equal_avg_Nonglavanoid_phenols.csv
+more_or_equal_avg_phenols.csv
+more_or_equal_avg_Proanthocyanins.csv
+more_or_equal_avg_Proline.csv
+more_or_equal_avg_Flavanoids.csv
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-12-09T034744.498430.snakemake.log
