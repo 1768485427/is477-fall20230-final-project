@@ -32,6 +32,7 @@ We conducted a summary statistics analysis for the dataset. There are 13 feature
 7. Configure GitHub integration with Zenodo
 8. Add the Zenodo DOI badge to repository 
 9. Choose the appropriate License. 
+10. Do the reproduce.
 
 **Jiawei Wang's contribution**: 
 1. Write analysis.py 
@@ -75,15 +76,15 @@ We recommend to downlowad the picture to ensure the you can check the picture cl
 
 if you are using docker, you could also reproduce the workflow in the project by run the following: 
 
-> docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project snakemake --cores 1 prepare
-> docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project snakemake --cores 1 profile
-> docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project snakemake --cores 1 analyze
+> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project snakemake --cores 1 prepare
+> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project snakemake --cores 1 profile
+> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project snakemake --cores 1 analyze
 
 And you can use the following to clean:
 
-> docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 prepare --delete-all-output
-> docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 profile --delete-all-output
-> docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 analyze --delete-all-output
+> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 prepare --delete-all-output
+> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 profile --delete-all-output
+> - docker run -v ${PWD}:/is477 yuchen50/is477-fall2023:final-project:v1 snakemake --cores 1 analyze --delete-all-output
 
 
 
